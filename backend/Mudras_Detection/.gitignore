@@ -1,0 +1,32 @@
+# Python cache and environment files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+.env
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+
+# Model and dataset files (usually large)
+*.h5
+*.pickle
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Ignore compiled models, datasets, and generated files
+cnn_model.h5
+data.pickle
+label_encoder.pickle
+
+# Ignore data folder
+data/
