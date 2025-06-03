@@ -1,8 +1,8 @@
-Nrityalya - Bharatnatyam E-Learning and Posture and Mudra Detection
+# Nrityalya - Bharatnatyam E-Learning and Posture and Mudra Detection
 
 This full-stack project aims to detect and classify Bharatanatyam dance postures using computer vision and deep learning models. It includes a Python backend for body landmark extraction and posture classification, and a React frontend for real-time visual feedback.
 
-  Features
+Features
 
 ✅ Capture Bharatanatyam postures via webcam
 ✅ Extract body landmarks using **Mediapipe**
@@ -11,32 +11,8 @@ This full-stack project aims to detect and classify Bharatanatyam dance postures
 ✅ Run live inference via **FastAPI backend**
 ✅ View real-time predictions in a **React frontend**
 
-## 🗂️ Project Structure
-
-project-root/
-├── backend/
-│   ├── mudra/                   # Hand gesture detection
-│   │   ├── app.py
-│   │   ├── collect_body_imgs.py
-│   │   ├── create_dataset.py
-│   │   ├── train_classifier.py
-│   │   ├── inference_classifier.py
-│   │   └── model.p
-│   │
-│   ├── posture_detection/       # Full-body posture detection
-│   │   ├── (same files as mudra/)
-│
-├── frontend/
-│   └── [React App Files]        # UI for real-time predictions
-│
-└── README.md                    # Project documentation
-
-
-
 ## 1️⃣ Backend Setup
-
 ### 📦 Install Dependencies
-
 Make sure you have Python 3.8+ installed.
 
 pip install fastapi uvicorn opencv-python mediapipe numpy scikit-learn pillow
@@ -64,13 +40,10 @@ python app.py
 ## 2️⃣ Frontend Setup (React)
 
 ### ⚙️ Navigate & Install
-
-
 cd frontend
 npm install
 
 ### ▶️ Run React App
-
 npm start
 
 This will launch the React app on `http://localhost:`, which connects to the FastAPI backend for live posture classification.
