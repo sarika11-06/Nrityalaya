@@ -7,8 +7,6 @@ Features
 ✅ Capture Bharatanatyam postures via webcam
 ✅ Extract body landmarks using **Mediapipe**
 ✅ Create a labeled dataset
-✅ Train a **Random Forest** classifier
-✅ Run live inference via **FastAPI backend**
 ✅ View real-time predictions in a **React frontend**
 
 ## 1️⃣ Backend Setup
