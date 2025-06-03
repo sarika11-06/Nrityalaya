@@ -39,6 +39,15 @@ Creates `model.p`, a trained Random Forest model for posture recognition.
 python app.py
 ```
 
+#### Create a virtual environment 
+```
+python -m venv venv
+source venv/bin/activate
+```
+Install all packages 
+```
+pip install -r requirements.txt
+```
 ### 2️⃣ Frontend Setup (React)
 
 #### ⚙️ Navigate & Install
